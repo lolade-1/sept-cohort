@@ -1,0 +1,149 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#F5F7FA;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+    
+}
+
+.container{
+    padding: 10px 30px;
+}
+
+.logo{
+    margin: 0;
+}
+.right-nav{
+    display: flex;
+    gap: 10px;
+}
+.Login-btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.Login-btn:hover{
+    color: #00a2ff;
+}
+.demo-btn{
+    background-color: transparent;
+    border: 3px solid #fc5b1a;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-weight: bold;
+    color: #fc5b1a;
+    cursor: pointer;
+
+}
+.demo-btn:hover{
+    background-color: #fc5b1a;
+    color: #ffff;
+}
+.signup-btn{
+    background-color: #00a2ff;
+    border: 3px solid #00a2ff;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+}
+.signup-btn:hover{
+      background-color: transparent;
+      color: #00a2ff;
+
+}
+.left-nav{
+    display: flex;
+    align-items: center;
+    font-weight: bold ;
+    
+
+}
+ul{
+    display: flex ;
+    gap: 30px                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ;
+}
+li {
+    list-style: none;
+}
+li:hover{
+    cursor: pointer;
+    color: #00a2ff;
+}
+
+section{
+    display: flex;
+    
+}
+.prehead{
+    padding-top: 10px;
+    color: #717171;
+    font-size: medium;
+    font-weight: bold;
+    
+}
+
+.hero-content h1{
+    font-size: 54px;
+}
+
+.hero-content p{
+    font-size: 18px;
+    line-height: 26px;
+    
+}
+
+.cta{
+    margin-top: 20px;
+    display: grid;
+    gap: 20px;
+}
+
+.btn button{
+    width: 220px;
+    height: 60px;
+    font-size: 18px;
+}
+
+.trial-btn{
+background-color: #fbe30c;
+border-radius: 20px;
+cursor: pointer;
+padding: 20px 30px;
+border: none;
+font-weight: bolder;
+}
+
+.trial-btn:hover{
+background-color:#00a2ff ;
+}
+.pricing-btn{
+background-color: black;
+border-radius: 20px;
+cursor: pointer;
+padding: 20px 30px;
+border: none;
+color: #ffff;
+font-weight: bold;
+
+}
+.pricing-btn:hover{
+    background-color: #00a2ff;
+}
+.credit-card{
+    font-size: 12px;
+    color: #000;
+}
+
+ul i{
+    font-size: 10px;
+}
